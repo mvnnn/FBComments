@@ -1,0 +1,36 @@
+[debug] [2017-07-08T09:18:52.148Z] ----------------------------------------------------------------------
+[debug] [2017-07-08T09:18:52.151Z] Command:      /usr/local/heroku/bin/node /usr/local/bin/firebase serve
+[debug] [2017-07-08T09:18:52.151Z] CLI Version:  3.9.1
+[debug] [2017-07-08T09:18:52.152Z] Platform:     linux
+[debug] [2017-07-08T09:18:52.152Z] Node Version: v7.10.0
+[debug] [2017-07-08T09:18:52.152Z] Time:         Sat Jul 08 2017 14:48:52 GMT+0530 (IST)
+[debug] [2017-07-08T09:18:52.152Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-08T09:18:52.164Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-08T09:18:52.164Z] > authorizing via signed-in user
+[debug] [2017-07-08T09:18:52.167Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-08T09:18:52.167Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/k3xNmcTNttN74CCVE9GDUti4rbRZv1WR5Hh92tQSpMg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Jul 08 2017 14:48:52 GMT+0530 (IST)
+[debug] [2017-07-08T09:18:52.632Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-08T09:18:52.672Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/swiggy-e9143  
+ Sat Jul 08 2017 14:48:52 GMT+0530 (IST)
+[debug] [2017-07-08T09:18:54.892Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-08T09:18:54.893Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/swiggy-e9143/tokens  
+ Sat Jul 08 2017 14:48:54 GMT+0530 (IST)
+[debug] [2017-07-08T09:18:56.931Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/bhautik/88F6790AF678FA30/APP/React Code/swiggy'...
+[info] 
+[debug] [2017-07-08T09:18:56.934Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/swiggy-e9143  
+ Sat Jul 08 2017 14:48:56 GMT+0530 (IST)
+[debug] [2017-07-08T09:18:58.882Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-08T09:18:58.882Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/301972581909/clients/_:getWebAppConfig  
+ Sat Jul 08 2017 14:48:58 GMT+0530 (IST)
+[debug] [2017-07-08T09:18:59.807Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-08T09:18:59.835Z] TypeError: Cannot read property 'public' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.
